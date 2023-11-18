@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&family=Poppins:wght@100;200&family=Roboto+Slab:wght@200;300&display=swap');
+
+
+.Slider_div {
+  margin-top: 5.2%;
+}
+
+.card_div {
+  margin-top: 120px;
+}
+
+
+.cards_div {
+  margin-top: 40px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3D5AFE;
+
+}
+
+.line1 {
+  color: #000;
+  font-size: 12px;
+
+}
+
+.line2 {
+  color: #000;
+  font-size: 12px;
+
+}
+
+.line3 {
+  color: #000;
+  font-size: 12px;
+
+}
+
+.cards {
+
+  transition: all 0.2s ease;
+  cursor: pointer;
+
+
+}
+
+.mycards {
+  border: none;
+}
+
+.cards:hover {
+
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+}
+
+.Swiper_section {
+  width: 75%;
+  margin: auto;
+}
+
+.sports_div {
+  background-color: #f5f5f5;
+}
+
+.text_div h4 {
+  font-weight: bold;
+}
+
+.mycards {
+  border-radius: 4px;
+  /* background: #fff; */
+  /* box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05); */
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  padding: 10px 20px 15px 30px;
+  cursor: pointer;
+}
+
+.mycards:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+
+
+
+@media screen and (max-width:576px) {
+  .mySwiper {
+    width: 80% !important;
+    margin: auto !important;
+  }
+
+  .card img {
+    text-align: center !important;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width:786px) {
+  .Slider_div {
+    margin-top: 70px;
+  }
+
+  .mycards {
+    width: 80%;
+    margin: auto;
+  }
+
+  .color_card {
+    width: 80%;
+    margin: auto;
+  }
+}

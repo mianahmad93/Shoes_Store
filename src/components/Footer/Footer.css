@@ -1,0 +1,76 @@
+.Footer_div {
+    margin-top: 30px;
+    background-color: #f5f5f5;
+    padding: 10px 10px;
+}
+
+
+
+.my_lists li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.email_div h6 {
+    font-size: small;
+}
+
+.email_form {
+    margin-top: 16px;
+    margin-left: 180px;
+    
+}
+.email_form input{
+    padding: 0px 5px;
+}
+
+.email_form button {
+    margin-left: 5px;
+    padding: 3px 20px !important;
+    border: none;
+    background-color: #3b3b3b;
+    color: white;
+    font-weight: bold;
+}
+
+.email_form button:hover {
+    border-color: #3b3b3b !important;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid #3b3b3b;
+}
+.footer_color_div{
+    background-color: blue;
+    padding: 30px 30px;
+}
+.footer_color_div p{
+    color: white;
+    margin-left: 30px;
+}
+
+@media screen and (max-width:576px) {
+   .section_3{
+    position: relative;
+    right: 100px;
+   }
+    .email_form {
+        margin-top: 16px;
+        margin-left: 0px;
+        position: relative;
+        left: 50px;
+    }
+    .email_div{
+        position: relative;
+        right: 20px;
+    }
+    .email_div h6{
+        position: relative;
+        right: 80px;
+    }
+    .email_form button {
+        margin-left: 5px;
+        padding: 3px 30px !important;
+       
+    }
+}

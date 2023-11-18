@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&family=Open+Sans:ital@1&family=Poppins:wght@100;200&family=Roboto+Slab:wght@200;300&display=swap');
+
+.products_div {
+    margin-top: 6%;
+}
+
+.products_div h2 {
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Lobster Two', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+@media screen and (max-width:576px) {
+    .products_card {
+        width: 70%;
+        margin: auto;
+    }
+}

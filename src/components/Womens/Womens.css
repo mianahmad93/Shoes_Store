@@ -1,0 +1,14 @@
+.Womens_div {
+    margin-top: 6%;
+}
+
+.Womens_div h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+@media screen and (max-width:576px) {
+    .Womens_div {
+        width: 80%;
+        margin: auto;
+    }
+}

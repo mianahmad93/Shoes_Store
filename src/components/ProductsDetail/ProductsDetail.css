@@ -1,0 +1,30 @@
+.ProductsDetail_page {
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.category_name h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.button_div button {
+    border: none;
+    padding: 5px 15px;
+}
+
+.button_div input {
+    width: 10%;
+    height: 34px;
+    padding: 0px 25px;
+    border: none;
+}
+.AddCart_div{
+    margin-top: 20px;
+}
+.AddCart_div button {
+    border: none;
+    background-color: #000;
+    color: white;
+    padding: 10px 34px;
+}

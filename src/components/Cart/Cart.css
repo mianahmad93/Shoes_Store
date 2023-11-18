@@ -1,0 +1,21 @@
+.No_item {
+    position: relative;
+    margin-top: 6%;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    color: black;
+}
+.Cart_div{
+    margin-top: 6%;
+}
+
+.total{
+    position: relative;
+    left: 260px;
+}
+
